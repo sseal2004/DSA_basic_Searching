@@ -17,8 +17,10 @@ class Solution {
         int remarks=0;
         if(count % 2==0 ){
             remarks++;
+            //return 1
         }
         return remarks;
+        //return 0;
 
     }
 }
