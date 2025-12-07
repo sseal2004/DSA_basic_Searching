@@ -1,2 +1,2 @@
 # DSA_basic_Searching
-LeetCode
+LeetCode(Searching + Sorting + Two Pointer + Basic Concept)
