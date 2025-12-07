@@ -1,18 +1,10 @@
 class Solution {
     public int mySqrt(int x) {
-            int ans =0;
-        while((long)pow(ans+1,2)<=x){
-            ans++;
-        }
-        return ans;
+       int sqrt = (int) pow(x, 0.5);
+       return sqrt;
     }
-    static long pow(long base,int exp){
-        long multi =1;
-        for(int i=0;i<exp;i++){
-            multi *=base;
-        }
-        return multi;
 
-    } 
-
+    static double pow(double base, double exp){
+        return Math.pow(base, exp);
+    }
 }
